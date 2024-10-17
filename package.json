@@ -1,0 +1,23 @@
+{
+  "name": "starter-theme",
+  "version": "1.0.0",
+  "description": "A simple starter theme for WordPress development",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-env start",
+    "stop": "wp-env stop",
+    "watch:block-editor": "wp-scripts start src/block-editor.js --output-path build/block-editor",
+    "watch:frontend": "wp-scripts start src/frontend.js --output-path build/frontend",
+    "build:block-editor": "wp-scripts build src/block-editor.js --output-path build/block-editor",
+    "build:frontend": "wp-scripts build src/frontend --output-path build/frontend",
+    "install": "wp-env install",
+    "test": "wp-env run test",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.2.0",
+    "eslint": "^8.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

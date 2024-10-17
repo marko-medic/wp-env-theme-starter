@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+
+vendor/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment files
+.env
+wp-env.json
+
+# WordPress specific
+/wp-content/uploads/
+/wp-content/plugins/
+/wp-content/themes/starter-theme/node_modules/
+
+# Other
+*.log
