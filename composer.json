@@ -1,22 +1,15 @@
 {
-  "name": "yourname/starter-theme",
-  "description": "A simple starter theme for WordPress development.",
-  "type": "wordpress-theme",
-  "require": {
-    "php": ">=7.3",
-    "composer/installers": "^1.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Starter\\": "src/"
-    }
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^9.5"
-  },
-  "scripts": {
-    "test": "phpunit"
-  },
-  "minimum-stability": "stable",
-  "prefer-stable": true
+    "name": "marko/wp-env-theme-starter",
+    "autoload": {
+        "psr-4": {
+            "Marko\\WpEnvThemeStarter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "marko.medic",
+            "email": "marko.medic@news.co.uk"
+        }
+    ],
+    "require": {}
 }
