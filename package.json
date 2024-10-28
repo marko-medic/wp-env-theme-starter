@@ -10,7 +10,6 @@
     "watch:frontend": "wp-scripts start src/frontend.js --output-path build/frontend",
     "build:block-editor": "wp-scripts build src/block-editor.js --output-path build/block-editor",
     "build:frontend": "wp-scripts build src/frontend --output-path build/frontend",
-    "install": "wp-env install",
     "test": "wp-env run test",
     "lint": "eslint ."
   },
